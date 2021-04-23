@@ -17,6 +17,11 @@
 
     <description>Inventory Failover Service</description>
 
+    <properties>
+        <docker.image.prefix>raggerbreak</docker.image.prefix>
+        <docker.image.name>${project.artifactId}</docker.image.name>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
